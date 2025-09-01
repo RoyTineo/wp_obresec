@@ -6,12 +6,13 @@ Este repositorio contiene un entorno base para levantar WordPress en Docker.
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/mi-wordpress.git
-   cd mi-wordpress
+   https://github.com/RoyTineo/wp_obresec.git
+   cd wp_obresec
    ```
 2. crear el archivo .env real
    cp .env.example .env
-3. Editar .env y colocar las credenciales reales:
+   
+4. Editar .env y colocar las credenciales reales:
 
 PROJECT_NAME=wordpress-demo
 
@@ -23,5 +24,4 @@ MYSQL_PASSWORD=tu_password_segura
 MYSQL_ROOT_PASSWORD=otra_password_segura
 
 # Puerto donde se expondrá WordPress
-
 APP_PORT=8080
