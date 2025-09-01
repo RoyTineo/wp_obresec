@@ -13,7 +13,7 @@ Este repositorio contiene un entorno base para levantar WordPress en Docker.
    cp .env.example .env
    
 4. Editar .env y colocar las credenciales reales:
-
+```bash
 PROJECT_NAME=wordpress-demo
 
 # Base de datos
@@ -25,3 +25,4 @@ MYSQL_ROOT_PASSWORD=otra_password_segura
 
 # Puerto donde se expondrá WordPress
 APP_PORT=8080
+```
